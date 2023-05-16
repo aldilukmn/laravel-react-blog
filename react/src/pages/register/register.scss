@@ -1,0 +1,21 @@
+.content-wrapper {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    .left {
+        flex: 1;
+        .img-register {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .right {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        width: 500px;
+    }
+}
